@@ -33,6 +33,8 @@
 ;; Requirements:
 (require 'font-lock)
 
+(add-to-list 'auto-mode-alist '("\\.thrift\\'" . thrift-mode))
+
 ;;
 ;; Thrift Functionality
 ;;
